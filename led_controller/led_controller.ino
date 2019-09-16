@@ -6,14 +6,14 @@
 
 
 // WiFi parameters
-#define WLAN_SSID       "DT_LAB"
-#define WLAN_PASS       "fthu@050318"
+#define WLAN_SSID       "your_wifi_ssid"
+#define WLAN_PASS       "wifi_password"
 
 // Adafruit IO
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "siddhesh"
-#define AIO_KEY         "402abd741aae4a42b3847b22c71e6693"  // Obtained from account info on io.adafruit.com
+#define AIO_USERNAME    "your_adafruit_username"
+#define AIO_KEY         "your_adafruit_io_key"  // Obtained from account info on io.adafruit.com
 
 // Lamp pin
 const int led_pin = 2;
